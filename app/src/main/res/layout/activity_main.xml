@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:textSize="100sp"
+            android:background="#ffebee"
+            android:textColor="#f44336"
+            android:textAlignment="center"
+            android:text="TextTest" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="Button" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="3"
+            android:text="аMMMMMMMMMMа"
+            android:inputType="textPersonName"/>
+
+        <Switch
+            android:id="@+id/switch2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="Switch1" />
+
+        <Switch
+            android:id="@+id/switch3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="Switch2" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="CheckBox" />
+
+        <ToggleButton
+            android:id="@+id/toggleButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50sp"
+            android:text="ToggleButton" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
